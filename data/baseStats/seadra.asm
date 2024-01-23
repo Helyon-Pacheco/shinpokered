@@ -12,7 +12,7 @@ INCBIN SEADRA_FR,0,1 ; 66, sprite dimensions
 dw SeadraPicFront
 dw SeadraPicBack
 ; attacks known at lvl 0
-db BUBBLE
+db BUBBLEBEAM
 db SMOKESCREEN
 db 0
 db 0

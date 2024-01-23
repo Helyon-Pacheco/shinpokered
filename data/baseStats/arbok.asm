@@ -12,10 +12,10 @@ INCBIN ARBOK_FR,0,1 ; 77, sprite dimensions
 dw ArbokPicFront
 dw ArbokPicBack
 ; attacks known at lvl 0
-db WRAP
+db TACKLE
 db LEER
 db POISON_STING
-db 0
+db BITE
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

@@ -14,10 +14,8 @@ dw ClefablePicBack
 ; attacks known at lvl 0
 db POUND
 db GROWL
-;db SING
-;db DOUBLESLAP
-db 0
-db 0
+db SING
+db DOUBLESLAP
 db 4 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

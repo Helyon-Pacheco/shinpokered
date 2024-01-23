@@ -15,7 +15,7 @@ dw SlowbroPicBack
 db CONFUSION
 db DISABLE
 db HEADBUTT
-db 0
+db BUBBLEBEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

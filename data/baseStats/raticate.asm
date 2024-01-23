@@ -12,7 +12,7 @@ INCBIN RATICATE_FR,0,1 ; 66, sprite dimensions
 dw RaticatePicFront
 dw RaticatePicBack
 ; attacks known at lvl 0
-db TACKLE
+db HYPER_FANG
 db TAIL_WHIP
 db QUICK_ATTACK
 db 0

@@ -15,7 +15,7 @@ dw SeakingPicBack
 db PECK
 db TAIL_WHIP
 db SUPERSONIC
-db 0
+db BUBBLEBEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7

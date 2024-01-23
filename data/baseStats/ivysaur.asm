@@ -15,7 +15,7 @@ dw IvysaurPicBack
 db TACKLE
 db GROWL
 db LEECH_SEED
-db 0
+db VINE_WHIP
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6,8

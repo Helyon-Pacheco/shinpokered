@@ -12,10 +12,10 @@ INCBIN EXEGGUTOR_FR,0,1 ; 77, sprite dimensions
 dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
-db BARRAGE
+db PSYBEAM
 db HYPNOSIS
-db 0
-db 0
+db SOLARBEAM
+db EGG_BOMB
 db 5 ; growth rate
 ; learnset
 	tmlearn 6

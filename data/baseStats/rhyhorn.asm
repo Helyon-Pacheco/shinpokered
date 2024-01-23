@@ -12,7 +12,7 @@ INCBIN RHYHORN_FR,0,1 ; 77, sprite dimensions
 dw RhyhornPicFront
 dw RhyhornPicBack
 ; attacks known at lvl 0
-db HORN_ATTACK
+db POUND
 db 0
 db 0
 db 0

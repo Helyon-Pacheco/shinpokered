@@ -12,7 +12,7 @@ INCBIN KINGLER_FR,0,1 ; 77, sprite dimensions
 dw KinglerPicFront
 dw KinglerPicBack
 ; attacks known at lvl 0
-db BUBBLE
+db BUBBLEBEAM
 db LEER
 db VICEGRIP
 db 0

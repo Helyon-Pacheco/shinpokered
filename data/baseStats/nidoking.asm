@@ -14,10 +14,8 @@ dw NidokingPicBack
 ; attacks known at lvl 0
 db LEER
 db TACKLE
-;db HORN_ATTACK
-;db POISON_STING
-db 0
-db 0
+db HORN_ATTACK
+db POISON_STING
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,7,8

@@ -13,7 +13,7 @@ dw CubonePicFront
 dw CubonePicBack
 ; attacks known at lvl 0
 db GROWL
-db BONE_CLUB
+db TACKLE
 db 0
 db 0
 db 0 ; growth rate

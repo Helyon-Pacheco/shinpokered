@@ -15,7 +15,7 @@ dw RhydonPicBack
 db HORN_ATTACK
 db STOMP
 db TAIL_WHIP
-db FURY_ATTACK
+db ROCK_THROW
 db 5 ; growth rate
 ; learnset
 	tmlearn 1,5,6,7,8

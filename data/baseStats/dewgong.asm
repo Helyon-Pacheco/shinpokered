@@ -15,7 +15,7 @@ dw DewgongPicBack
 db HEADBUTT
 db GROWL
 db AURORA_BEAM
-db 0
+db WATER_GUN
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,7,8

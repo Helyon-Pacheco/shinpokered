@@ -8260,8 +8260,8 @@ MoveEffectPointerTable:
 	 dw StatModifierDownEffect    ; DEFENSE_DOWN_SIDE_EFFECT
 	 dw StatModifierDownEffect    ; SPEED_DOWN_SIDE_EFFECT
 	 dw StatModifierDownEffect    ; SPECIAL_DOWN_SIDE_EFFECT
-	 dw StatModifierDownEffect    ; unused effect
-	 dw StatModifierDownEffect    ; unused effect
+	 dw StatModifierDownEffect    ; ACCURACY_DOWN_SIDE_EFFECT
+	 dw StatModifierDownEffect    ; EVASION_DOWN_SIDE_EFFECT
 	 dw StatModifierDownEffect    ; unused effect
 	 dw StatModifierDownEffect    ; unused effect
 	 dw ConfusionSideEffect       ; CONFUSION_SIDE_EFFECT
@@ -8873,6 +8873,7 @@ StatModifierDownEffect:
 	jp nc, CantLowerAnymore
 	ld a, [de]
 	sub ATTACK_DOWN_SIDE_EFFECT ; map each stat to 0-3
+	cp EVASION_DOWN_SIDE_EFFECT + $3 - ATTACK_DOWN_SIDE_EFFECT
 	jr .decrementStatMod
 .nonSideEffect ; non-side effects only
 	push hl

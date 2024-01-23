@@ -14,10 +14,8 @@ dw VictreebelPicBack
 ; attacks known at lvl 0
 db VINE_WHIP
 db GROWTH
-db 0
-db 0
-;db WRAP
-;db POISONPOWDER
+db POISONPOWDER
+db RAZOR_LEAF
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6,8

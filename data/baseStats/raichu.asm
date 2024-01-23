@@ -17,8 +17,8 @@ dw RaichuPicBack
 ;db THUNDERSHOCK
 ;db 0
 db GROWL
-db THUNDERSHOCK
-db 0
+db THUNDERBOLT
+db THUNDER_WAVE
 db 0
 db 0 ; growth rate
 ; learnset

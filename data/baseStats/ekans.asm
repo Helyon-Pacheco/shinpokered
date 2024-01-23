@@ -12,7 +12,7 @@ INCBIN EKANS_FR,0,1 ; 55, sprite dimensions
 dw EkansPicFront
 dw EkansPicBack
 ; attacks known at lvl 0
-db WRAP
+db TACKLE
 db LEER
 db 0
 db 0
