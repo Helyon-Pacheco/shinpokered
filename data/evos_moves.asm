@@ -503,7 +503,8 @@ ArcanineEvosMoves:
 	db 12, EMBER
 	db 16, LEER
 	db 21, RAGE
-	db 29, TAKE_DOWN
+	db 28, BITE
+	db 33, TAKE_DOWN
 	db 37, FLAMETHROWER
 	db 41, SKULL_BASH
 	db 45, AGILITY
@@ -692,7 +693,8 @@ GrowlitheEvosMoves:
 	db 9, EMBER
 	db 13, LEER
 	db 18, RAGE
-	db 26, TAKE_DOWN
+	db 25, BITE
+	db 30, TAKE_DOWN
 	db 34, FLAMETHROWER
 	db 38, SKULL_BASH
 	db 42, AGILITY
