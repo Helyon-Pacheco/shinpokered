@@ -901,10 +901,10 @@ ParasectEvosMoves:
 	db 13, POISONPOWDER
 	db 16, VICEGRIP
 	db 19, ABSORB
-	db 28, SPORE
+	db 28, GROWTH
 	db 34, CUT
 	db 37, SLASH
-	db 46, GROWTH
+	db 46, SPORE
 	db 50, MEGA_DRAIN
 	db 55, GUILLOTINE
 	db 0
@@ -1699,10 +1699,10 @@ ParasEvosMoves:
 	db 13, POISONPOWDER
 	db 16, VICEGRIP
 	db 19, ABSORB
-	db 25, SPORE
+	db 25, GROWTH
 	db 31, CUT
 	db 34, SLASH
-	db 37, GROWTH
+	db 37, SPORE
 	db 43, MEGA_DRAIN
 	db 48, GUILLOTINE
 	db 0
