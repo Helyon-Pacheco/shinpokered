@@ -1474,6 +1474,7 @@ SeadraEvosMoves:
 	db 29, BUBBLEBEAM
 	db 32, SLAM
 	db 40, AGILITY
+	db 46, DRAGON_RAGE
 	db 51, HYDRO_PUMP
 	db 0
 
@@ -2126,6 +2127,7 @@ MarowakEvosMoves:
 	db 25, RAGE
 	db 32, ROCK_THROW
 	db 39, BONEMERANG
+	db 42, NIGHT_SHADE
 	db 46, THRASH
 	db 0
 

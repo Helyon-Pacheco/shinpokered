@@ -274,10 +274,10 @@ SpecialTrainerMoves:
 	db 1,2,MIMIC
 	db 1,3,HYPNOSIS
 	db 1,4,DREAM_EATER
-	;ninetales - confuse ray, substitute, thunderbolt, mega drain
+	;ninetales - flamethrower, substitute, night shade, fire spin
 	db 2,2,SUBSTITUTE
-	;golbat - screech, confuse ray, double edge, mega drain
-	db 3,3,RAZOR_WIND
+	;marowak - bonemerang, night shade, thrash, focus energy
+	db 3,4,FOCUS_ENERGY
 	;arbok - earthquake, glare, screech, acid
 	db 4,1,EARTHQUAKE
 	db 4,4,SCREECH
@@ -287,18 +287,16 @@ SpecialTrainerMoves:
 	db LANCE,$1
 	;gyarados - dragon rage, bite, hydro pump, hyperbeam
 	db 1,2,BITE
-	;dragonair - thunder wave, reflect, thunderbolt, hyperbeam
-	db 2,1,THUNDER_WAVE
-	db 2,2,REFLECT
-	db 2,4,THUNDERBOLT
+	;seadra - hydro pump, blizzard, agility, dragon rage
+	db 2,2,BLIZZARD
 	;charizard - surf, body slam, ice beam, hyperbeam
 	db 3,2,RAZOR_WIND
 	db 3,3,SMOKESCREEN
-	;aerodactyl - supersonic, fire blast, fly, hyperbeam
+	;aerodactyl - rock slide, fire blast, fly, hyperbeam
 	db 4,2,FIRE_BLAST
 	db 4,3,FLY
-	;dragonite - blizzard, fire blast, thunder, hyperbeam
-	db 5,4,THUNDER
+	;dragonite - dragon rage, hyperbeam, thunder, razor wind
+	db 5,3,THUNDER
 	db 0
 
 	db SONY3,$1

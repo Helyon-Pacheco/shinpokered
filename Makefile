@@ -113,8 +113,8 @@ endif
 # Please act responsibly should you choose to compile using this tag.
 # Dev Note: The added flashing can become quite displeasing regardless. Leaving it out makes for a better experience.
 
-$(pokered_obj): 			RGBASMFLAGS += -D _RED -D _ENCRED -D _SWBACKS -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
-$(pokeblue_obj): 			RGBASMFLAGS += -D _BLUE -D _ENCBLUEGREEN -D _SWBACKS -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
+$(pokered_obj): 			RGBASMFLAGS += -D _RED -D _ENCRED -D _SWBACKS -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _METRIC -D _SWSPRITES -D _JPTXT
+$(pokeblue_obj): 			RGBASMFLAGS += -D _BLUE -D _ENCBLUEGREEN -D _SWBACKS -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _METRIC -D _SWSPRITES -D _JPTXT
 $(pokegreen_obj): 			RGBASMFLAGS += -D _GREEN -D _ENCBLUEGREEN -D _RGSPRITES -D _REDGREENJP -D _JPTXT -D _JPLOGO -D _RGTITLE -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
 $(pokered_origback_obj): 	RGBASMFLAGS += -D _RED -D _ENCRED -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
 $(pokeblue_origback_obj): 	RGBASMFLAGS += -D _BLUE -D _ENCBLUEGREEN -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
