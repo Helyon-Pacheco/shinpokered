@@ -460,6 +460,7 @@ CuboneEvosMoves:
 	db 29, ROCK_THROW
 	db 33, BONEMERANG
 	db 37, THRASH
+	db 42, SKULL_BASH
 	db 0
 
 RhyhornEvosMoves:
@@ -612,9 +613,10 @@ StaryuEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 12, HARDEN
+	db 12, DEFENSE_CURL
 	db 17, WATER_GUN
 	db 22, CONFUSION
+	db 25, HARDEN
 	db 27, BUBBLEBEAM
 	db 32, SWIFT
 	db 35, PSYBEAM
@@ -713,7 +715,9 @@ OnixEvosMoves:
 	db 27, SLAM
 	db 36, ROCK_SLIDE
 	db 40, EARTHQUAKE
-	db 46, BIND
+	db 46, DRAGON_RAGE
+	db 51, SKULL_BASH
+	db 55, BIND
 	db 0
 
 FearowEvosMoves:
@@ -792,6 +796,7 @@ GravelerEvosMoves:
 	db 34, ROCK_SLIDE
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
+	db 52, SKULL_BASH
 	db 55, FISSURE
 	db 0
 
@@ -922,6 +927,7 @@ PsyduckEvosMoves:
 	db 23, WATER_GUN
 	db 25, SCREECH
 	db 31, BUBBLEBEAM
+	db 35, HEADBUTT
 	db 40, PSYBEAM
 	db 50, HYDRO_PUMP
 	db 0
@@ -956,6 +962,7 @@ GolemEvosMoves:
 	db 34, ROCK_SLIDE
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
+	db 52, SKULL_BASH
 	db 55, FISSURE
 	db 0
 
@@ -1076,6 +1083,7 @@ DiglettEvosMoves:
 	db 25, ROCK_THROW
 	db 33, SLASH
 	db 41, EARTHQUAKE
+	db 45, SKULL_BASH
 	db 49, FISSURE
 	db 0
 
@@ -1185,10 +1193,12 @@ DoduoEvosMoves:
 ; Learnset
 	db 9, FURY_ATTACK
 	db 13, RAGE
+	db 16, SAND_ATTACK
 	db 21, SWIFT
 	db 25, THRASH
 	db 33, DRILL_PECK
 	db 37, AGILITY
+	db 42, EARTHQUAKE
 	db 0
 
 PoliwagEvosMoves:
@@ -1426,10 +1436,10 @@ KabutoEvosMoves:
 ; Learnset
 	db 5, PIN_MISSILE
 	db 10, ABSORB
-	db 14, CUT
+	db 14, VICEGRIP
 	db 19, LEER
-	db 25, HARDEN
-	db 31, ROCK_THROW
+	db 25, ROCK_THROW
+	db 31, HARDEN
 	db 37, LEECH_LIFE
 	db 46, ROCK_SLIDE
 	db 55, GUILLOTINE
@@ -1441,10 +1451,10 @@ KabutopsEvosMoves:
 ; Learnset
 	db 5, PIN_MISSILE
 	db 10, ABSORB
-	db 14, CUT
+	db 14, VICEGRIP
 	db 19, LEER
-	db 25, HARDEN
-	db 31, ROCK_THROW
+	db 25, ROCK_THROW
+	db 31, HARDEN
 	db 37, LEECH_LIFE
 	db 40, SLASH
 	db 51, ROCK_SLIDE
@@ -1502,6 +1512,7 @@ SandshrewEvosMoves:
 	db 23, ROCK_THROW
 	db 30, SLASH
 	db 37, SWIFT
+	db 41, SKULL_BASH
 	db 45, EARTHQUAKE
 	db 0
 
@@ -1516,6 +1527,7 @@ SandslashEvosMoves:
 	db 23, ROCK_THROW
 	db 33, SLASH
 	db 42, SWIFT
+	db 46, SKULL_BASH
 	db 52, EARTHQUAKE
 	db 0
 
@@ -1527,9 +1539,10 @@ OmanyteEvosMoves:
 	db 5, BUBBLE
 	db 10, BITE
 	db 14, WATER_GUN
-	db 19, LEER
-	db 25, DEFENSE_CURL
+	db 19, WITHDRAW
+	db 25, LEER
 	db 31, ROCK_THROW
+	db 34, HARDEN
 	db 37, BUBBLEBEAM
 	db 46, ROCK_SLIDE
 	db 55, HYDRO_PUMP
@@ -1542,9 +1555,10 @@ OmastarEvosMoves:
 	db 5, BUBBLE
 	db 10, BITE
 	db 14, WATER_GUN
-	db 19, LEER
-	db 25, DEFENSE_CURL
+	db 19, WITHDRAW
+	db 25, LEER
 	db 31, ROCK_THROW
+	db 34, HARDEN
 	db 37, BUBBLEBEAM
 	db 40, HORN_ATTACK
 	db 44, SPIKE_CANNON
@@ -1779,11 +1793,13 @@ DodrioEvosMoves:
 ; Learnset
 	db 9, FURY_ATTACK
 	db 13, RAGE
+	db 16, SAND_ATTACK
 	db 21, SWIFT
 	db 25, THRASH
 	db 31, TRI_ATTACK
 	db 38, DRILL_PECK
 	db 47, AGILITY
+	db 53, EARTHQUAKE
 	db 0
 
 PrimeapeEvosMoves:
@@ -1812,6 +1828,7 @@ DugtrioEvosMoves:
 	db 26, TRI_ATTACK
 	db 37, SLASH
 	db 49, EARTHQUAKE
+	db 53, SKULL_BASH
 	db 61, FISSURE
 	db 0
 
@@ -1922,6 +1939,7 @@ GolduckEvosMoves:
 	db 23, WATER_GUN
 	db 25, SCREECH
 	db 31, BUBBLEBEAM
+	db 38, HEADBUTT
 	db 44, PSYBEAM
 	db 58, HYDRO_PUMP
 	db 0
@@ -1981,7 +1999,7 @@ SnorlaxEvosMoves:
 	db 29, HEADBUTT
 	db 36, REST
 	db 43, BODY_SLAM
-	db 50, ROCK_THROW
+	db 50, SKULL_BASH
 	db 57, HYPER_BEAM
 	db 0
 
@@ -2129,6 +2147,7 @@ MarowakEvosMoves:
 	db 39, BONEMERANG
 	db 42, NIGHT_SHADE
 	db 46, THRASH
+	db 50, SKULL_BASH
 	db 0
 
 MissingNo92EvosMoves:
@@ -2212,9 +2231,10 @@ StarmieEvosMoves:
 ;joenote-modified for fun
 ; Learnset
 	db 10, BUBBLE
-	db 15, HARDEN
+	db 15, DEFENSE_CURL
 	db 20, WATER_GUN
 	db 25, CONFUSION
+	db 28, HARDEN
 	db 30, BUBBLEBEAM
 	db 35, SWIFT
 	db 40, MINIMIZE
@@ -2290,8 +2310,8 @@ GoldeenEvosMoves:
 	db 29, FURY_ATTACK
 	db 33, BUBBLEBEAM
 	db 38, WATERFALL
-	db 43, HORN_DRILL
-	db 52, AGILITY
+	db 43, AGILITY
+	db 52, HORN_DRILL
 	db 0
 
 SeakingEvosMoves:
@@ -2304,8 +2324,8 @@ SeakingEvosMoves:
 	db 29, FURY_ATTACK
 	db 33, BUBBLEBEAM
 	db 41, WATERFALL
-	db 48, HORN_DRILL
-	db 61, AGILITY
+	db 48, AGILITY
+	db 61, HORN_DRILL
 	db 0
 
 MissingNo9FEvosMoves:
@@ -2360,6 +2380,7 @@ RapidashEvosMoves:
 	db 34, TAKE_DOWN
 	db 40, HORN_ATTACK
 	db 47, AGILITY
+	db 52, HORN_DRILL
 	db 61, FIRE_BLAST
 	db 68, FIRE_SPIN
 	db 0
@@ -2375,6 +2396,7 @@ RattataEvosMoves:
 	db 27, BITE
 	db 30, HYPER_FANG
 	db 34, SUPER_FANG
+	db 40, SKULL_BASH
 	db 0
 
 RaticateEvosMoves:
@@ -2388,6 +2410,7 @@ RaticateEvosMoves:
 	db 30, BITE
 	db 35, HYPER_FANG
 	db 40, SUPER_FANG
+	db 46, SKULL_BASH
 	db 0
 
 NidorinoEvosMoves:
@@ -2438,6 +2461,7 @@ GeodudeEvosMoves:
 	db 31, ROCK_SLIDE
 	db 36, EARTHQUAKE
 	db 41, EXPLOSION
+	db 45, SKULL_BASH
 	db 48, FISSURE
 	db 0
 
@@ -2463,8 +2487,8 @@ AerodactylEvosMoves:
 	db 22, ROCK_THROW
 	db 29, TAKE_DOWN
 	db 36, AGILITY
-	db 43, DOUBLE_EDGE
-	db 48, ROCK_SLIDE
+	db 43, ROCK_SLIDE
+	db 48, DOUBLE_EDGE
 	db 55, HYPER_BEAM
 	db 0
 
